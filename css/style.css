@@ -1,0 +1,332 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 1903px;
+    height: 90px;
+}
+nav{
+    width: 1280px;
+    height: 90px;
+    margin: auto;
+    background: #fff;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    widows: 200px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.logo-1{
+    background: url(../images/logo-1.png);
+    width: 162px;
+    height: 54px;
+}
+.logo-2{
+    background: url(../images/logo-2.png);
+    width: 38px;
+    height: 54px;
+}
+.menu{
+    width: 427.94px;
+    height: 90px;
+    margin: auto;
+    margin-left: 225px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu-box1{
+    width: 94.56px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-box2{
+    width: 94.56px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-box3{
+    width: 94.56px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-box4{
+    width: 144.25px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.util{
+    width: 215px;
+    height: 90px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.login-box1{
+    width: 53px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 51);
+}
+.login-box2{
+    width: 54px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box3{
+    width: 54px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box4{
+    width: 54px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box5{
+    width: 54px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.box2{
+    background: url(../images/util__link--alram.svg);
+    width: 44px;
+    height: 44px;
+    border: none;
+}
+.box3{
+    background: url(../images/util__link--cart-off.svg);
+    width: 44px;
+    height: 44px;
+    border: none;
+}
+.box4{
+    background: url(../images/util__link--search.svg);
+    width: 44px;
+    height: 44px;
+    border: none;
+}
+.box5{
+    background: url(../images/drawer-trigger.svg);
+    width: 44px;
+    height: 44px;
+    border: none;
+} */
+
+
+@media(max-width:1060px){
+    .head{
+        height: 51px;
+    }
+    .logo{
+        margin-left: 1%;
+    }
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 90px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    /* width: 200px; */
+    height: 90px;
+    margin-left: 14%;
+    display: flex;
+    align-items: center;
+
+}
+.logo-1{
+    background: url(../images/logo-1.png);
+    width: 162px;
+    height: 54px;
+}
+.logo-2{
+    background: url(../images/logo-2.png);
+    width: 38px;
+    height: 54px;
+}
+.menu{
+    width: 427.94px;
+    height: 90px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu-box1{
+    width: 94.56px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-box2{
+    width: 94.56px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-box3{
+    width: 94.56px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-box4{
+    width: 144.25px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.util{
+    width: 215px;
+    height: 90px;
+    margin-right: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.login-box1{
+    width: 53px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 51);
+}
+.login-box2{
+    width: 54px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box3{
+    width: 54px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box4{
+    width: 54px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box5{
+    width: 54px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.box2{
+    background: url(../images/util__link--alram.svg);
+    width: 44px;
+    height: 44px;
+    border: none;
+}
+.box3{
+    background: url(../images/util__link--cart-off.svg);
+    width: 44px;
+    height: 44px;
+    border: none;
+}
+.box4{
+    background: url(../images/util__link--search.svg);
+    width: 44px;
+    height: 44px;
+    border: none;
+}
+.box5{
+    background: url(../images/drawer-trigger.svg);
+    width: 44px;
+    height: 44px;
+    border: none;
+}
+
+@media(max-width:1060px){
+    .head{
+        height: 51px;
+    }
+    .logo{
+        margin-left: 1%;
+        height: 51px;
+    }
+    /* .logo-1{
+        width: 132px;
+    } */
+    .menu{
+        display: none;
+    }
+    .util{
+        margin-right: 1%;
+        height: 51px;
+    }
+    .login-box1{
+        display: none;
+    }
+    .login-box4{
+        display: none;
+    }
+    .login-box5{
+        display: block;
+    }
+}
